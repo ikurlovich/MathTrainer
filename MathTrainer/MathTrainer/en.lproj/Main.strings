@@ -1,0 +1,72 @@
+
+/* Class = "UILabel"; text = "-"; ObjectID = "3Z2-y6-Wjt"; */
+"3Z2-y6-Wjt.text" = "-";
+
+/* Class = "UIButton"; configuration.title = "22"; ObjectID = "AjA-ZU-y21"; */
+"AjA-ZU-y21.configuration.title" = "22";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AjA-ZU-y21"; */
+"AjA-ZU-y21.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "2 + 2 ="; ObjectID = "NGf-os-o9M"; */
+"NGf-os-o9M.text" = "2 + 2 =";
+
+/* Class = "UILabel"; text = "Math Trainer"; ObjectID = "NZZ-Mt-Rah"; */
+"NZZ-Mt-Rah.text" = "Math Trainer";
+
+/* Class = "UIButton"; configuration.title = "/"; ObjectID = "WHe-n2-b3H"; */
+"WHe-n2-b3H.configuration.title" = "/";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WHe-n2-b3H"; */
+"WHe-n2-b3H.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "YQt-Br-MnW"; */
+"YQt-Br-MnW.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "aof-Hz-M0I"; */
+"aof-Hz-M0I.text" = "-";
+
+/* Class = "UIButton"; configuration.title = "+"; ObjectID = "aog-GA-Yzk"; */
+"aog-GA-Yzk.configuration.title" = "+";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aog-GA-Yzk"; */
+"aog-GA-Yzk.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "-"; ObjectID = "cNJ-V6-HeM"; */
+"cNJ-V6-HeM.configuration.title" = "-";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cNJ-V6-HeM"; */
+"cNJ-V6-HeM.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Go back"; ObjectID = "eND-mm-jMc"; */
+"eND-mm-jMc.configuration.title" = "Go back";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eND-mm-jMc"; */
+"eND-mm-jMc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "hBG-MZ-qhx"; */
+"hBG-MZ-qhx.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "k5z-U8-CU5"; */
+"k5z-U8-CU5.text" = "-";
+
+/* Class = "UILabel"; text = "Что хотите тренировать?"; ObjectID = "m1I-Sd-zab"; */
+"m1I-Sd-zab.text" = "Что хотите тренировать?";
+
+/* Class = "UIButton"; configuration.title = "23"; ObjectID = "mNi-5W-akq"; */
+"mNi-5W-akq.configuration.title" = "23";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mNi-5W-akq"; */
+"mNi-5W-akq.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "+"; ObjectID = "qjK-bA-cZh"; */
+"qjK-bA-cZh.configuration.title" = "+";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qjK-bA-cZh"; */
+"qjK-bA-cZh.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "*"; ObjectID = "xwS-fp-sn1"; */
+"xwS-fp-sn1.configuration.title" = "*";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xwS-fp-sn1"; */
+"xwS-fp-sn1.normalTitle" = "Button";
