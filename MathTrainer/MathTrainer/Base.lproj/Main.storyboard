@@ -11,7 +11,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MathTrainer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -52,7 +51,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nJy-lu-3eJ"/>
+                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjF-tR-8a3"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aof-Hz-M0I">
@@ -96,10 +95,10 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oET-qc-ShC"/>
+                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kPu-8z-h0E"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Z2-y6-Wjt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Z2-y6-Wjt" userLabel="Subtract Label">
                                         <rect key="frame" x="0.0" y="87" width="80" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -140,7 +139,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SBl-xV-Lli"/>
+                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P5u-60-7FG"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQt-Br-MnW">
@@ -184,7 +183,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P1j-Mk-sLq"/>
+                                            <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bOS-t6-g3x"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5z-U8-CU5">
@@ -225,28 +224,31 @@
                     </view>
                     <navigationItem key="navigationItem" id="cFh-mq-Uze"/>
                     <connections>
-                        <outletCollection property="ButtonCollection" destination="aog-GA-Yzk" collectionClass="NSMutableArray" id="yu8-IP-mdb"/>
-                        <outletCollection property="ButtonCollection" destination="cNJ-V6-HeM" collectionClass="NSMutableArray" id="Rc0-4o-Swy"/>
-                        <outletCollection property="ButtonCollection" destination="xwS-fp-sn1" collectionClass="NSMutableArray" id="123-10-bkA"/>
-                        <outletCollection property="ButtonCollection" destination="WHe-n2-b3H" collectionClass="NSMutableArray" id="py8-Z4-sgo"/>
+                        <outlet property="addLabel" destination="aof-Hz-M0I" id="zVn-jT-amY"/>
+                        <outlet property="divideLabel" destination="YQt-Br-MnW" id="9Ad-aO-SRE"/>
+                        <outlet property="multiplyLabel" destination="k5z-U8-CU5" id="oI2-4v-dvH"/>
+                        <outlet property="subtractLabel" destination="3Z2-y6-Wjt" id="53U-tC-TMr"/>
+                        <outletCollection property="ButtonCollection" destination="aog-GA-Yzk" collectionClass="NSMutableArray" id="nNO-gf-Zwn"/>
+                        <outletCollection property="ButtonCollection" destination="cNJ-V6-HeM" collectionClass="NSMutableArray" id="S9H-6s-rnT"/>
+                        <outletCollection property="ButtonCollection" destination="xwS-fp-sn1" collectionClass="NSMutableArray" id="PZT-s6-74l"/>
+                        <outletCollection property="ButtonCollection" destination="WHe-n2-b3H" collectionClass="NSMutableArray" id="cHj-Ur-rgC"/>
                         <segue destination="cPs-gJ-8mN" kind="show" identifier="goToNext" id="kk3-u3-LvO"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="127.48091603053435" y="-27.464788732394368"/>
         </scene>
         <!--Train View Controller-->
         <scene sceneID="bDd-5e-WAM">
             <objects>
-                <exit id="WNz-oH-pfe" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="acz-C3-coP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="cPs-gJ-8mN" customClass="TrainViewController" customModule="MathTrainer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cdx-Mt-1Pj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eND-mm-jMc">
-                                <rect key="frame" x="30" y="59.999999999999993" width="75" height="28.666666666666664"/>
+                                <rect key="frame" x="30" y="60" width="75" height="29"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
@@ -255,7 +257,7 @@
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="3"/>
+                                        <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -288,7 +290,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="APv-1a-HsB"/>
+                                    <action selector="leftAction:" destination="cPs-gJ-8mN" eventType="touchUpInside" id="JiS-Er-d7m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AjA-ZU-y21">
@@ -311,17 +313,43 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QYw-wT-ohv"/>
+                                    <action selector="rightAction:" destination="cPs-gJ-8mN" eventType="touchUpInside" id="xlc-4d-7AV"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hR-AO-uBV">
+                                <rect key="frame" x="289.33333333333331" y="60" width="73.666666666666686" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-O9-c6r">
+                                        <rect key="frame" x="9.9999999999999964" y="7" width="53.666666666666657" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="12"/>
+                                        <color key="textColor" systemColor="systemYellowColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="fkN-O9-c6r" firstAttribute="top" secondItem="1hR-AO-uBV" secondAttribute="top" constant="7" id="N1a-p7-d27"/>
+                                    <constraint firstItem="fkN-O9-c6r" firstAttribute="centerX" secondItem="1hR-AO-uBV" secondAttribute="centerX" id="gR8-OY-MlB"/>
+                                    <constraint firstItem="fkN-O9-c6r" firstAttribute="leading" secondItem="1hR-AO-uBV" secondAttribute="leading" constant="10" id="m1i-V4-MsU"/>
+                                    <constraint firstItem="fkN-O9-c6r" firstAttribute="centerY" secondItem="1hR-AO-uBV" secondAttribute="centerY" id="xLg-fb-QH7"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tu6-BP-a0t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="tu6-BP-a0t" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eND-mm-jMc" secondAttribute="trailing" symbolic="YES" id="03j-8O-L9r"/>
                             <constraint firstItem="NGf-os-o9M" firstAttribute="centerX" secondItem="cdx-Mt-1Pj" secondAttribute="centerX" id="4XY-05-fpS"/>
+                            <constraint firstItem="tu6-BP-a0t" firstAttribute="trailing" secondItem="1hR-AO-uBV" secondAttribute="trailing" constant="30" id="C9n-ug-8hU"/>
+                            <constraint firstItem="1hR-AO-uBV" firstAttribute="top" secondItem="tu6-BP-a0t" secondAttribute="top" constant="60" id="UWP-L6-ekJ"/>
                             <constraint firstItem="mNi-5W-akq" firstAttribute="centerX" secondItem="cdx-Mt-1Pj" secondAttribute="centerX" constant="-60" id="Xss-ur-PMX"/>
                             <constraint firstItem="NGf-os-o9M" firstAttribute="centerY" secondItem="cdx-Mt-1Pj" secondAttribute="centerY" constant="-30" id="dZt-lY-31c"/>
+                            <constraint firstItem="1hR-AO-uBV" firstAttribute="bottom" secondItem="eND-mm-jMc" secondAttribute="bottom" id="kTU-h2-IoN"/>
                             <constraint firstItem="AjA-ZU-y21" firstAttribute="centerY" secondItem="mNi-5W-akq" secondAttribute="centerY" id="nJi-Bi-DQ8"/>
                             <constraint firstItem="eND-mm-jMc" firstAttribute="leading" secondItem="tu6-BP-a0t" secondAttribute="leading" constant="30" id="o6X-kZ-UBo"/>
                             <constraint firstItem="mNi-5W-akq" firstAttribute="top" secondItem="NGf-os-o9M" secondAttribute="bottom" constant="120" id="sMM-ev-Lef"/>
@@ -331,10 +359,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="cBk-nU-F5e"/>
                     <connections>
-                        <outletCollection property="ButtonCollection" destination="mNi-5W-akq" collectionClass="NSMutableArray" id="Oe2-9J-Jq1"/>
-                        <outletCollection property="ButtonCollection" destination="AjA-ZU-y21" collectionClass="NSMutableArray" id="2PS-cz-kxe"/>
+                        <outlet property="leftButton" destination="mNi-5W-akq" id="43R-LQ-Sha"/>
+                        <outlet property="questionLabel" destination="NGf-os-o9M" id="dFU-i7-aCB"/>
+                        <outlet property="rightButton" destination="AjA-ZU-y21" id="hG2-eq-Qtg"/>
+                        <outlet property="scoreLabel" destination="fkN-O9-c6r" id="xf6-ax-eNn"/>
                     </connections>
                 </viewController>
+                <exit id="WNz-oH-pfe" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acz-C3-coP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="975" y="-27"/>
         </scene>

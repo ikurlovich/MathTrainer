@@ -15,14 +15,25 @@ class ViewController: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet var ButtonCollection: [UIButton]!
     
+    @IBOutlet weak var addLabel: UILabel!
+    @IBOutlet weak var subtractLabel: UILabel!
+    @IBOutlet weak var multiplyLabel: UILabel!
+    @IBOutlet weak var divideLabel: UILabel!
+    
     // MARK: - Properties
     private var selectedType: MathTypes = .add
+    
+    var countAdd = 0
+    var countSubtract = 0
+    var countMultiply = 0
+    var countDivide = 0
     
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         configureButtons()
+        addCountLabels()
     }
 
     // MARK: - Actions
@@ -32,7 +43,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwindAction(unwindSegue: UIStoryboardSegue) {
-        print("test")
+        print("back")
     }
     
     // MARK: - Methods
@@ -50,6 +61,13 @@ class ViewController: UIViewController {
             button.layer.shadowOpacity = 0.4
             button.layer.shadowRadius = 3
         }
+    }
+    
+    private func addCountLabels() {
+        addLabel.text = countAdd == 0 ? "-" : "\(countAdd)"
+        subtractLabel.text = countSubtract == 0 ? "-" : "\(countSubtract)"
+        multiplyLabel.text = countMultiply == 0 ? "-" : "\(countMultiply)"
+        divideLabel.text = countDivide == 0 ? "-" : "\(countDivide)"
     }
 
 }
