@@ -69,6 +69,5 @@ class ViewController: UIViewController {
         multiplyLabel.text = countMultiply == 0 ? "-" : "\(countMultiply)"
         divideLabel.text = countDivide == 0 ? "-" : "\(countDivide)"
     }
-
 }
 

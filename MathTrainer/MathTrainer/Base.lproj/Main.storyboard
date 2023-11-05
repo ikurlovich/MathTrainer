@@ -224,10 +224,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="cFh-mq-Uze"/>
                     <connections>
-                        <outlet property="addLabel" destination="aof-Hz-M0I" id="zVn-jT-amY"/>
-                        <outlet property="divideLabel" destination="YQt-Br-MnW" id="9Ad-aO-SRE"/>
-                        <outlet property="multiplyLabel" destination="k5z-U8-CU5" id="oI2-4v-dvH"/>
-                        <outlet property="subtractLabel" destination="3Z2-y6-Wjt" id="53U-tC-TMr"/>
+                        <outlet property="addLabel" destination="aof-Hz-M0I" id="6k1-dr-hXB"/>
+                        <outlet property="divideLabel" destination="YQt-Br-MnW" id="Hx3-DU-Crh"/>
+                        <outlet property="multiplyLabel" destination="k5z-U8-CU5" id="7sx-Cr-eo5"/>
+                        <outlet property="subtractLabel" destination="3Z2-y6-Wjt" id="kaO-TX-N8b"/>
                         <outletCollection property="ButtonCollection" destination="aog-GA-Yzk" collectionClass="NSMutableArray" id="nNO-gf-Zwn"/>
                         <outletCollection property="ButtonCollection" destination="cNJ-V6-HeM" collectionClass="NSMutableArray" id="S9H-6s-rnT"/>
                         <outletCollection property="ButtonCollection" destination="xwS-fp-sn1" collectionClass="NSMutableArray" id="PZT-s6-74l"/>
